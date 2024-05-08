@@ -1,0 +1,81 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+body{background-color: beige;
+}
+header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+
+}
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+    
+
+article{
+    background-color: black;
+}
+h
+
+
+
+
+
+
+
+a .title{
+    cursor: pointer;
+  float: right;
+  background-color: blue;
+  margin: 1.25rem 0.6rem 0.6rem 0.6rem;
+  border-radius: 5px;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  position: relative;
+}
+ .title:hover{
+    background-color: white;
+    
+}
+ .title span {
+    color: black;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a.title span:after{
+    content: '\032C';
+
+    opacity: 0;
+   
+    bottom: -0.5rem;
+    transition: 0.5s;
+  left: 2rem;
+
+
+    position:absolute;
+}
+ .title:hover span {
+    padding-bottom: 1rem;
+}
+.title:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.show{
+      display:none;  
+    color: brown;
+}
