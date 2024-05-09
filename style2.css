@@ -11,7 +11,6 @@ header{
     align-items: center;
     flex-direction: column;
 }
-nav{
 
 }
 h1{
@@ -32,18 +31,13 @@ h
 
 
 
-a .title{
+a .explore{
     padding:0;
-}
-p{
-    padding-top:6;
-}
-p{
-    padding:0;
-    margin:0;
 }
 
-a .title{
+
+
+a .explore{
     cursor: pointer;
   float: right;
   background-color: blue;
@@ -54,11 +48,11 @@ a .title{
   color: white;
   position: relative;
 }
- .title:hover{
+ .explore:hover{
     background-color: white;
     
 }
- .title span {
+ .explore span {
     color: black;
   cursor: pointer;
   display: inline-block;
@@ -66,23 +60,22 @@ a .title{
   transition: 0.5s;
 }
 
-a.title span:after{
+a.explore span:after{
     content: '\032C';
 
     opacity: 0;
-   
+
     bottom: -0.5rem;
     transition: 0.5s;
   left: 2rem;
-  
-
-
-    position:absolute;
+   position:absolute;
 }
- .title:hover span {
+
+
+ .explore:hover span {
     padding-bottom: 1rem;
 }
-.title:hover span:after{
+.explore:hover span:after{
     opacity: 1;
     right: 0;
 }
@@ -90,8 +83,7 @@ a.title span:after{
       display:none;  
     color: brown;
 }
-p{
-    font-style: italic;
-    text-align: start;
-    padding-bottom: 4rem;
+.arrow{
+    padding:7 6 5 4;
+    cursor:pointer;
 }
