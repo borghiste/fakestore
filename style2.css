@@ -12,47 +12,40 @@ header{
     flex-direction: column;
 }
 
-}
+
 h1{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+a{
+    font-style: none;
+}
+
 
     
 
 article{
     background-color: black;
 }
-h
 
 
 
-
-
-
-a .explore{
-    padding:0;
-}
-
-
-
-a .explore{
+ #explore{
     cursor: pointer;
-  float: right;
-  background-color: blue;
-  margin: 1.25rem 0.6rem 0.6rem 0.6rem;
+  background-color:azure
+  /* margin: 1.25rem 0.6rem 0.6rem 0.6rem; */
   border-radius: 5px;
-  border: none;
-  padding: 0.6rem 1rem;
+  border: 0;
+
   color: white;
   position: relative;
 }
- .explore:hover{
-    background-color: white;
+ #explore:hover{
+    background-color:aqua
     
 }
- .explore span {
+ #explore span {
     color: black;
   cursor: pointer;
   display: inline-block;
@@ -60,30 +53,24 @@ a .explore{
   transition: 0.5s;
 }
 
-a.explore span:after{
+#explore span:after{
     content: '\032C';
-
-    opacity: 0;
-
     bottom: -0.5rem;
     transition: 0.5s;
-  left: 2rem;
-   position:absolute;
+  
+   position:absolute; 
 }
 
 
- .explore:hover span {
-    padding-bottom: 1rem;
+ #explore:hover span {
+     padding-bottom: 1rem; 
+  
 }
-.explore:hover span:after{
-    opacity: 1;
-    right: 0;
+#explore:hover span:after{
+    
+padding:0;
+margin:0;
 }
-.show{
-      display:none;  
-    color: brown;
-}
-.arrow{
-    padding:7 6 5 4;
-    cursor:pointer;
+ .show{
+      display:none;   
 }

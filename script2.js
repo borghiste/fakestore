@@ -31,7 +31,7 @@
 
 // dichiaro le variabili globali menu e nav//
 
-let explore = document.getElementsByClassName("explore");
+let explore = document.getElementById("explore");
 let mainContainer = document.querySelector('main');
 
 let navBar = document.querySelector("nav");
