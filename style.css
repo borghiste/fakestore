@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+  
 }
 :root{
     --var-primary-color-100:rgb(62,28,0);
@@ -13,6 +14,7 @@
 body,html{
     padding:0;
     margin:0;
+    height:100%;
 }
 body{background-color: beige;
 }
@@ -23,6 +25,7 @@ header{
     align-items: center;
   flex-direction: column;
   color: aliceblue;
+  
 }
 nav{
 width:100%;
@@ -33,14 +36,15 @@ border-radius: 3rem;;
 background-color: var(--var-primary-color-103);
 
 }
-h1{
-    
-  
+h1{margin:0;
+    padding-bottom:3rem;
 
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    padding-bottom:9rem;
+   
 
 }
     
@@ -48,68 +52,64 @@ h2{
 article{
     background-color: black;
 }
-h
 
 
 
 
 
 
-a .title{
+
+
+ .explore{
     padding:0;
 }
-p{
-    padding-top:6;
-}
-p{
-    padding:0;
-    margin:0;
-}
 
 
-a .title{
+
+ .explore{
     cursor: pointer;
-  float: right;
-  
-  margin: 1.25rem 0.6rem 0.6rem 0.6rem;
+  position:absolute;
+  margin: 1.25rem 0.3rem 0.3rem 0.6rem;
   border-radius: 5px;
   border: none;
   padding: 0.6rem 1rem;
-  color:
-  position: relative;
+  color:white;
+ padding-top:3rem; 
 }
- .title:hover{
+ .explore:hover{
     background-color: var(--var-primary-color-105)
     
 }
- .title span {
-    color: black;
+ .explore span {
+    color: white;
   cursor: pointer;
-  display: inline-block;
-  position: relative;
+   display: inline-block;
+  position: relative; 
   transition: 0.5s;
 }
 
-a.title span:after{
+.explore span:after{
     content: '\032C';
-    font-size: 5rem;;
-
+    font-size: 2rem;;
+padding-right: 3rem;
     opacity: 0;
-   
-    bottom: -0.5rem;
-    transition: 0.5s;
-  left: 2rem;
+   right:1rem;
+    bottom: -0.1rem;
+    transition: 10s;
+    color: white;
+
   
-
-
+  margin:0 auto;
     position:absolute;
 }
- .title:hover span {
-    padding-bottom: 1rem;
+ .explore:hover span {
+     padding-bottom: 1rem; 
+     z-index: 8;
 }
-.title:hover span:after{
+.explore:hover span:after{
     opacity: 1;
-    right: 0;
+
+   right:0;
 }
 .show{
       display:none;  
@@ -122,7 +122,7 @@ button{
     font-size: 1rem;
 }
 .arrow{
-    font-size: 8rem;
+    font-size: 2rem;
  
     
 }
