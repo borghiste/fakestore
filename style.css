@@ -69,23 +69,23 @@ article{
  .explore{
     cursor: pointer;
   position:absolute;
-  margin: 1.25rem 0.3rem 0.3rem 0.6rem;
+   /* margin: 1.25rem 0.3rem 0.3rem 0.6rem;  */
   border-radius: 5px;
   border: none;
-  padding: 0.6rem 1rem;
+   padding: 0.6rem 1rem; 
   color:white;
  padding-top:3rem; 
 }
  .explore:hover{
+   
     background-color: var(--var-primary-color-105)
-    
-}
+    }
  .explore span {
     color: white;
   cursor: pointer;
    display: inline-block;
   position: relative; 
-  transition: 0.5s;
+  transition: 9s;
 }
 
 .explore span:after{
@@ -93,12 +93,17 @@ article{
     font-size: 2rem;;
 padding-right: 3rem;
     opacity: 0;
-   right:1rem;
+    right:1rem;
     bottom: -0.1rem;
-    transition: 10s;
+    transition: 1s;
     color: white;
+}
 
-  
+
+
+
+
+
   margin:0 auto;
     position:absolute;
 }
@@ -125,4 +130,4 @@ button{
     font-size: 2rem;
  
     
-}
+} */
