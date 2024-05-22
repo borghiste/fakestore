@@ -77,7 +77,7 @@ article{
  padding-top:3rem; 
 }
  .explore:hover{
-   
+   padding-top: 0;
     background-color: var(--var-primary-color-105)
     }
  .explore span {
@@ -85,24 +85,18 @@ article{
   cursor: pointer;
    display: inline-block;
   position: relative; 
-  transition: 9s;
+  transition: 1s;
 }
 
 .explore span:after{
     content: '\032C';
-    font-size: 2rem;;
+    font-size:2rem;;
 padding-right: 3rem;
     opacity: 0;
     right:1rem;
     bottom: -0.1rem;
     transition: 1s;
     color: white;
-}
-
-
-
-
-
 
   margin:0 auto;
     position:absolute;
