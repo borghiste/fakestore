@@ -31,7 +31,7 @@
 
 // dichiaro le variabili globali menu e nav//
 
-let title = document.querySelector(".explore");
+let title = document.querySelector(".arrow");
 let mainContainer = document.querySelector('main');
 
 let navBar = document.querySelector("nav");
