@@ -34,7 +34,7 @@
 let title = document.querySelector(".explore");
 let mainContainer = document.querySelector('main');
 
-let navBar = document.querySelector("nav");
+let navBar = document.querySelector(".show");
 
 
 // aggiungo un event listener al nav, cos' quando viene cliccato un targewt che ha come tagname button invoco la funzione per oittenere i prodotti in base alla categoria del pulsante, la funzione avrà come argomento il testo del pulsante
